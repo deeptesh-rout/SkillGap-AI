@@ -1,0 +1,93 @@
+{
+    "Software Engineer": {
+        "skills": {
+            "Python": 0.7,
+            "Java": 0.8,
+            "DSA": 1.0,
+            "SQL": 0.8,
+            "Git": 0.7,
+            "OOP": 0.9,
+            "System Design": 0.6,
+            "Docker": 0.5
+        }
+    },
+
+    "Frontend Developer": {
+        "skills": {
+            "HTML": 1.0,
+            "CSS": 0.9,
+            "JavaScript": 1.0,
+            "React": 0.9,
+            "Git": 0.7,
+            "TypeScript": 0.6,
+            "REST API": 0.5
+        }
+    },
+
+    "Backend Developer": {
+        "skills": {
+            "Java": 0.8,
+            "Python": 0.7,
+            "SQL": 0.9,
+            "REST API": 1.0,
+            "Git": 0.7,
+            "Docker": 0.7,
+            "System Design": 0.8
+        }
+    },
+
+    "Full Stack Developer": {
+        "skills": {
+            "HTML": 0.9,
+            "CSS": 0.8,
+            "JavaScript": 1.0,
+            "React": 0.8,
+            "Node.js": 0.8,
+            "SQL": 0.8,
+            "Git": 0.8,
+            "REST API": 0.8,
+            "Docker": 0.5
+        }
+    },
+
+    "ML Engineer": {
+        "skills": {
+            "Python": 1.0,
+            "Machine Learning": 1.0,
+            "Deep Learning": 0.9,
+            "PyTorch": 0.8,
+            "Scikit-learn": 0.8,
+            "SQL": 0.6,
+            "Docker": 0.6,
+            "Git": 0.7,
+            "Data Structures": 0.6
+        }
+    },
+
+    "Data Scientist": {
+        "skills": {
+            "Python": 1.0,
+            "Machine Learning": 0.9,
+            "Statistics": 1.0,
+            "Pandas": 0.9,
+            "NumPy": 0.9,
+            "SQL": 0.9,
+            "Data Visualization": 0.8,
+            "Scikit-learn": 0.8
+        }
+    },
+
+    "AI Engineer": {
+        "skills": {
+            "Python": 1.0,
+            "Machine Learning": 0.9,
+            "Deep Learning": 0.9,
+            "PyTorch": 0.9,
+            "NLP": 0.8,
+            "Generative AI": 0.8,
+            "Large Language Models": 0.8,
+            "Docker": 0.6,
+            "Git": 0.7
+        }
+    }
+}

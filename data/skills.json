@@ -1,0 +1,45 @@
+{
+    "programming": [
+        "Python",
+        "Java",
+        "C++",
+        "JavaScript",
+        "TypeScript"
+    ],
+    "frontend": [
+        "React",
+        "Angular",
+        "Vue",
+        "HTML",
+        "CSS"
+    ],
+    "backend": [
+        "FastAPI",
+        "Django",
+        "Flask",
+        "Spring Boot",
+        "Node.js"
+    ],
+    "database": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis"
+    ],
+    "ai_ml": [
+        "Machine Learning",
+        "Deep Learning",
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "NLP",
+        "Computer Vision"
+    ],
+    "cloud": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Docker",
+        "Kubernetes"
+    ]
+}
