@@ -47,11 +47,7 @@ def generate_fallback_roadmap(
         "focus on the following areas:\n\n"
     )
 
-    for index, skill in enumerate(
-        missing_skills,
-        start=1
-    ):
-
+    for index, skill in enumerate(missing_skills,start=1):
         roadmap += (
             f"## {index}. {skill}\n\n"
             f"- Learn the fundamentals of {skill}\n"
@@ -69,20 +65,12 @@ def generate_fallback_roadmap(
     return roadmap
 
 
-def generate_roadmap(
-    role,
-    current_skills,
-    missing_skills
-):
+def generate_roadmap(role,current_skills,missing_skills):
 
     client = get_hf_client()
 
     if client is None:
-
-        return generate_fallback_roadmap(
-            role,
-            missing_skills
-        )
+        return generate_fallback_roadmap(role,missing_skills)
 
 
     current_skill_names = []
@@ -96,10 +84,7 @@ def generate_roadmap(
             )
 
         else:
-
-            current_skill_names.append(
-                skill
-            )
+            current_skill_names.append(skill)
 
 
     prompt = f"""
@@ -145,17 +130,8 @@ Return Markdown only.
             max_tokens=1200
         )
 
-        return response.choices[
-            0
-        ].message.content
+        return response.choices[0].message.content
 
     except Exception as error:
-
-        print(
-            f"Hugging Face error: {error}"
-        )
-
-        return generate_fallback_roadmap(
-            role,
-            missing_skills
-        )
+        print(f"Hugging Face error: {error}")
+        return generate_fallback_roadmap(role,missing_skills)

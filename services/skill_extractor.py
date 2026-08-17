@@ -26,9 +26,7 @@ def extract_skills(resume_text, skills_data):
         List of dictionaries
     """
 
-    normalized_resume = normalize_text(
-        resume_text
-    )
+    normalized_resume = normalize_text(resume_text)
 
     detected_skills = []
 
@@ -44,10 +42,7 @@ def extract_skills(resume_text, skills_data):
                 normalized_skill
             ) + r"\b"
 
-            if re.search(
-                pattern,
-                normalized_resume
-            ):
+            if re.search(pattern,normalized_resume):
 
                 detected_skills.append(
                     {

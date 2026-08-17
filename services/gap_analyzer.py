@@ -47,15 +47,9 @@ def analyze_skill_gap(
 
     for skill, required_level in required_skills.items():
 
-        current_level = user_skill_names.get(
-            skill.lower(),
-            0.0
-        )
+        current_level = user_skill_names.get(skill.lower(), 0.0)
 
-        gap = max(
-            required_level - current_level,
-            0.0
-        )
+        gap = max( required_level - current_level, 0.0)
 
         item = {
             "skill": skill,
@@ -67,11 +61,9 @@ def analyze_skill_gap(
         details.append(item)
 
         if gap > 0:
-
             missing_skills.append(skill)
 
         else:
-
             strong_skills.append(skill)
 
 
